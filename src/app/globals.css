@@ -1,42 +1,33 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import "tailwindcss/preflight";
+/* replaces @tailwind base */
+@tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@import "@fontsource/orbitron";
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.text-shadow-green {
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000;
+  color: #00FF9F;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.input {
+  background: #1f1f1f;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  width: 100%;
+  border-radius: 4px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.btn {
+  background: #00ff88;
+  padding: 0.5rem 1rem;
+  color: black;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
 }

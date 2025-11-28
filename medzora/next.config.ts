@@ -1,8 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
-  // ✅ No need for appDir anymore in latest Next.js
+  /* config options here */
 };
 
 export default nextConfig;
