@@ -27,7 +27,7 @@ Styling ---> Dark Mode / Sci-Fi Custom Components
 
 📂 Project Brief
 
-The repository is split into two main hubs to ensure high performance and scalability:/frontend: The user interface. A Next.js application focused on speed, animations, and the "MedZora" aesthetic./backend: The brain of the operation. A FastAPI engine handling LLM logic, medical data processing, and Whisper integrations.🚦 Getting Started1. Clone the repositoryBashgit clone https://github.com/your-username/medzora.git
+The repository is split into two main hubs to ensure high performance and scalability:/frontend: The user interface. A Next.js application focused on speed, animations, and the "MedZora" aesthetic./backend: The brain of the operation. A FastAPI engine handling LLM logic, medical data processing, and Whisper integrations.🚦 Getting Started1. Clone the repository Bash git clone https://github.com/Swa-Mi/medzora.git
 cd medzora
 
 2. Backend SetupBashcd backend
