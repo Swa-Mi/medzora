@@ -31,19 +31,23 @@ The repository is split into two main hubs to ensure high performance and scalab
 cd medzora
 
 2. Backend SetupBashcd backend
+   
 pip install -r requirements.txt
 python main.py
 
 
-3. Frontend SetupBashcd frontend
+4. Frontend SetupBashcd frontend
+   
 npm install
 npm run dev
 
 🗺 Roadmap[x] 
+
 > MVP: Discharge Summary Generation[x] 
 > Sci-Fi UI Implementation[ ] 
 > Integration of Whisper for Voice-to-Text[ ] 
 > Multi-hospital Dashboard Sync[ ] 
 > Automated Prescription Engine (v2.0)
 
-🛡 LicenseThis project is licensed under the MIT License — see the LICENSE file for details.
+🛡 License 
+This project is licensed under the MIT License — see the LICENSE file for details.
